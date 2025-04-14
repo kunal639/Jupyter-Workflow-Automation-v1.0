@@ -16,10 +16,10 @@ A simple Python desktop GUI tool to launch Jupyter Notebook/Lab or VS Code from 
 ### Requirements
 - Python 3.10+
 - Install dependencies:
-customtkinter
-transformers
-nbformat
-torch
-tk
+customtkinter==0.3.1
+transformers==4.11.3
+nbformat==5.1.3
+torch==1.10.0
 
 pip install -r requirements.txt
+python main.py
