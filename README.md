@@ -1,25 +1,28 @@
-# Jupyter-Workflow-Automation-v1.0
+# Jupyter Workflow Automation Tool
 
-# Smart Jupyter Launcher
+A Python desktop app to automate launching Jupyter notebooks with saved paths, Git repo cloning, environment checks, and AI-powered notebook summarization.
 
-A simple Python desktop GUI tool to launch Jupyter Notebook/Lab or VS Code from saved project folders. Built with Tkinter and CustomTkinter.
+## 🔧 Features
+- One-click launch for Jupyter Lab/Notebook from saved directories
+- GitHub repo cloning and requirements check
+- AI-based summarization of notebooks using HuggingFace Transformers
+- Simple, clean GUI using CustomTkinter
 
-## Features
-- Launch Jupyter Notebook or Lab in 1 click
-- Optionally launch VS Code in the folder
-- Save and manage multiple paths in a JSON file
-- Clean UI with folder dropdowns
-- HuggingFace-powered notebook summarization (coming in V2)
+## 📸 Screenshots
+(Add 2–3 images showing the UI, and one showing summarization)
 
-## Getting Started
+## 🖥 Demo
+[![Watch the Demo](demo.gif)](demo_video_link)  <!-- GIF or Loom video -->
 
-### Requirements
-- Python 3.10+
-- Install dependencies:
-customtkinter==0.3.1
-transformers==4.11.3
-nbformat==5.1.3
-torch==1.10.0
+## ⚙️ Setup Instructions
 
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/jupyter-automation.git
+cd jupyter-automation
+
+# (Optional) create a virtual environment
 pip install -r requirements.txt
+
+# Run the app
 python main.py
