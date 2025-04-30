@@ -12,7 +12,7 @@ A Python desktop app to automate launching Jupyter notebooks with saved paths, G
 (Added images showing the UI, and one showing summarization)
 
 ## 🖥 Demo
-[![Watch the Demo](demo.gif)](demo_video_link)  <!-- GIF or Loom video -->
+[![Watch the Demo in the demo folder]  <!-- GIF or Loom video -->
 
 ## ⚙️ Setup Instructions
 
