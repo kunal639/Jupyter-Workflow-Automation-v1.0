@@ -8,8 +8,8 @@ A Python desktop app to automate launching Jupyter notebooks with saved paths, G
 - AI-based summarization of notebooks using HuggingFace Transformers
 - Simple, clean GUI using CustomTkinter
 
-## 📸 Screenshots
-(Add 2–3 images showing the UI, and one showing summarization)
+## 📸 Screenshots in assets folder
+(Added images showing the UI, and one showing summarization)
 
 ## 🖥 Demo
 [![Watch the Demo](demo.gif)](demo_video_link)  <!-- GIF or Loom video -->
